@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+
+<body>
+    <section>
+        <div class="container">
+            <div class="row" id="products">
+
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>品名</th>
+                                <th>單價</th>
+                                <th>個數</th>
+                                <th>小計</th>
+                            </tr>
+                        </thead>
+                        <tbody id="order-content"></tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="3" class="text-right">總計:</td>
+                                <td id="total">0元</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-firestore.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyAEm4dSUoPa-H9xgDRL1oX_YdURBG_G7JY",
+            authDomain: "html296-resnick1223.firebaseapp.com",
+            databaseURL: "https://html296-resnick1223.firebaseio.com",
+            projectId: "html296-resnick1223",
+            storageBucket: "html296-resnick1223.appspot.com",
+            messagingSenderId: "687408921070"
+        };
+        firebase.initializeApp(config);
+        db = firebase.firestore();
+    </script>
+    <script src="./app.js"></script>
+</body>
+
+
+</html>
