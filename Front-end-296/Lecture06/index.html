@@ -8,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./style.css">
 </head>
@@ -16,6 +17,18 @@
 <body>
     <section>
         <div class="container">
+            <!-- Button trigger modal -->
+            <button id="login" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                Google Login
+            </button>
+
+            <img id="user-photo" class="circle" width="30">
+            <span id="username" class="st-icon-pandora"></span>
+
+            <button id="logout" type="button" class="btn btn-primary hidden" data-toggle="modal" data-target="#exampleModal">
+                logout
+            </button>
+
             <div class="row" id="products">
 
             </div>
@@ -39,6 +52,8 @@
                             </tr>
                         </tfoot>
                     </table>
+                    <button id="checkout" class="btn btn-primary btn-lg hidden">結帳</button>
+
                 </div>
             </div>
         </div>
