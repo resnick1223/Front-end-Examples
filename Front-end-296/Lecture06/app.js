@@ -19,6 +19,14 @@ $("#login").click(function () {
     });
 });
 
+$("#logout").click(function () {
+    firebase.auth().signOut().then(function () {
+        // Sign-out successful.
+    }).catch(function (error) {
+        // An error happened.
+    });
+});
+
 firebase.auth().onAuthStateChanged(function (user) {
     if (user) {
 
@@ -31,7 +39,7 @@ firebase.auth().onAuthStateChanged(function (user) {
         uid = user.uid;
         var providerData = user.providerData;
         $("#username").text(displayName);
-
+        $("#user-photo").attr("src", photoURL);
         // 如果使用者登入成功
         // 顯示 登出按鈕 隱藏 登入按鈕
         $("#user-photo").attr("src", photoURL);
@@ -44,6 +52,9 @@ firebase.auth().onAuthStateChanged(function (user) {
         $("#login").removeClass("hidden");
         $("#logout").addClass("hidden");
         $("#checkout").addClass("hidden");
+        $("#user-photo").addClass("hidden");
+        $("#username").addClass("hidden");
+
 
     }
 });
