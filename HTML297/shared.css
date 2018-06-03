@@ -1,0 +1,10 @@
+html,
+body,
+header,
+h1,
+h3,
+p {
+    /* 取消留白與邊界 */
+    padding: 0;
+    margin: 0;
+}
