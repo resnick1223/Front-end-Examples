@@ -1,0 +1,48 @@
+.navbar-brand {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+#topContainer {
+    background-image: url("./background.jpg");
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    
+}
+
+#topRow {
+    margin-top: 100px;
+    text-align: center;
+}
+
+#topRow h1 {
+    font-size : 3em;
+}
+
+.marginTop {
+    margin-top: 30px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 3em;
+}
+
+#footer {
+    background-image: url("./background.jpg");
+    background-size: cover;
+    width: 100%;
+}
+
+.appstoreImg {
+    width:300px;
+}

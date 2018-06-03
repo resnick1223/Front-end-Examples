@@ -1,0 +1,19 @@
+{
+  "name": "pokemon-run",
+  "version": "0.1.0",
+  "description": "nodejs pokemon run",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "y"
+  },
+  "author": "resnick <resnick1223>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
+  }
+}

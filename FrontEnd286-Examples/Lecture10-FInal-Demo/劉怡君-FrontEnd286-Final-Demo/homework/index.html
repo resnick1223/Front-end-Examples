@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <!-- normalize -->
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/wow/css/libs/animate.css">
+    <!-- 改左上小圖 -->
+    <link rel="shortcut icon" href="img/tasty-icon.ico">
+    <link rel="stylesheet" href="css/basic.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/wow/dist/wow.min.js"></script>
+
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/jquery.easing/js/jquery.easing.min.js"></script>
+
+    <script src="js/main.js"></script>
+
+    <title>TASTY</title>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="55">
+    <!--導覽列開始-->
+    <nav class="navbar  navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- 導覽列 RWD選單圖示與品牌連結 -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle">
+                   <span class="sr-only">觸發縮放</span>
+                   <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+               </button>
+                <a class="navbar-brand" href="#">TASTY</a>
+            </div>
+
+            <!-- 導覽列選項 與導覽列中的表單元素 -->
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <!-- 左邊導覽列清單 -->
+                <ul class="nav navbar-nav navbar-left">
+
+
+                    <li> <a href="#">主餐</a></li>
+                    <li class="dropdown-item meat-cheap">
+                        <!-- todo 下拉式選單... -->
+                        <a href="#meatcheap">精選套餐518</a>
+                        <ul class="sub-dropdown-menu">
+
+                            <li>原塊牛排</li>
+                            <li>時蔬厚切燉牛排</li>
+                            <li>ABK牛排</li>
+                            <li>義式丁骨豬排</li>
+                            <li>法式烤雞</li>
+                            <li>海陸雙拼(牛.魚or雞.魚)</li>
+
+                        </ul>
+
+                    </li>
+                    <li class="dropdown-item meat-expensive ">
+
+                        <a href="#meatexpensive">經典套餐568</a>
+                        <ul class="sub-dropdown-menu">
+                            <li>金磚牛排</li>
+                            <li>嫩煎牛排佐松露紅酒</li>
+                            <li>香煎鴨胸佐櫻桃紅酒</li>
+                            <li>番茄野菇鱸魚</li>
+                        </ul>
+                    </li>
+
+                </ul>
+
+
+
+                <!-- 拉到右邊的導覽列清單 -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#salad">沙拉</a></li>
+                    <li>
+                        <a href="#appetizer">前菜</a></li>
+                    <li>
+                        <a href="#soup">湯品</a></li>
+                    <li>
+                        <a href="#dessert">甜點</a></li>
+                    <li>
+                        <a href="#drink">飲料</a></li>
+
+                </ul>
+            </div>
+
+        </div>
+
+    </nav>
+    <!--導覽列結束-->
+    <!-- note 輪播畫面 -->
+    <section id="advertising">
+
+        <!--輪播開始-->
+        <div id="slideshow" class="carousel slide" data-ride="carousel" data-interval="2000">
+            <div class="carousel-inner" role="listbox">
+                <!--輪播圖片或內容-->
+                <div class="item active" id="item1">
+                    <h1></h1>
+                </div>
+                <div class="item" id="item2">
+                    <h1></h1>
+                </div>
+                <div class="item" id="item3">
+                    <h1></h1>
+                </div>
+
+            </div>
+        </div>
+        <!--上一頁 下一頁 按鈕-->
+        <div class="control-btn">
+            <a href="#slideshow" class="left carousel-control" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+            <a href="#slideshow" class="right carousel-control" data-slide="next"><span class="glyphicon glyphicon-chevron-right" ></span></a>
+
+        </div>
+
+    </section>
+    <div class="allmeat">
+        <!-- note 精選套餐518 -->
+        <section id="meatcheap">
+            <div class="container">
+                <div class="row">
+                    <h1 class="title">精選套餐518</h1>
+                    <div class="photo col-sm-4 img-rounded" id="cheap-photo-1">
+                        <h3>原塊牛排</h3>
+                    </div>
+                    <div class="photo col-sm-4 img-rounded" id="cheap-photo-2">
+                        <h3>時蔬厚切燉牛排</h3>
+                    </div>
+                    <div class="photo col-sm-4 img-rounded" id="cheap-photo-3">
+                        <h3>ABK牛排</h3>
+                    </div>
+                    <div class="photo col-sm-4 img-rounded" id="cheap-photo-4">
+                        <h3>義式丁骨豬排</h3>
+                    </div>
+                    <div class="photo col-sm-4 img-rounded" id="cheap-photo-5">
+                        <h3>法式烤雞</h3>
+                    </div>
+                    <div class="photo col-sm-4 img-rounded" id="cheap-photo-6">
+                        <h3>海陸雙拼</h3>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+        <!-- note 精選套餐518 end -->
+        <!-- note 經典套餐568 -->
+
+        <section id="meatexpensive">
+            <div class="container">
+                <div class="row">
+                    <h1 class="title">經典套餐568</h1>
+                    <div class="photo col-sm-4 col-sm-offset-2 img-rounded" id="expensivep-photo-1">
+                        <h4>金磚牛排</h4>
+                    </div>
+                    <div class="photo col-sm-4  img-rounded" id="expensivep-photo-2">
+                        <h4>嫩煎牛排佐松露紅酒</h4>
+                    </div>
+                    <div class="photo col-sm-4 col-sm-offset-2 img-rounded" id="expensivep-photo-3">
+                        <h4>香煎鴨胸佐櫻桃紅酒</h4>
+                    </div>
+                    <div class="photo col-sm-4  img-rounded" id="expensivep-photo-4">
+                        <h4>番茄野菇鱸魚</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- note 經典套餐568 end-->
+        <!-- note 沙拉-->
+
+        <section id="salad">
+            <div class="container">
+                <div class="row">
+                    <h1 class="title">沙拉</h1>
+                    <div class="photo col-sm-4 img-rounded" id="salad-photo-1">
+                        <h3>洋芋沙拉</h3>
+                    </div>
+                    <div class="photo col-sm-4 img-rounded" id="salad-photo-2">
+                        <h3>時令水果</h3>
+                    </div>
+                    <div class="photo col-sm-4 img-rounded" id="salad-photo-3">
+                        <h3>紐奧良雞肉沙拉</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- note 沙拉 end-->
+        <!-- note 前菜-->
+
+        <section id="appetizer">
+            <div class="container">
+                <div class="row">
+                    <h1 class="title">前菜</h1>
+                    <div class="wow bounce">
+                        <div class="photo col-sm-4 col-sm-offset-2 img-rounded" id="appetizer-photo-1">
+                            <h3>焗烤蘑菇方塊麵包</h3>
+                        </div>
+                        <div class="photo col-sm-4 img-rounded" id="appetizer-photo-2">
+                            <h3>夏威夷丹麥餅</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- note 前菜 end-->
+        <!-- note 湯品soup -->
+
+
+        <section id="soup">
+            <div class="container">
+                <div class="row">
+                    <h1 class="title">湯品</h1>
+                    <div class="photo col-sm-4 img-rounded" id="soup-photo-1">
+                        <h3>義式海鮮清湯</h3>
+                    </div>
+                    <div class="photo col-sm-4 img-rounded" id="soup-photo-2">
+                        <h3>鮮蔬雞肉清湯</h3>
+                    </div>
+                    <div class="photo col-sm-4 img-rounded" id="soup-photo-3">
+                        <h3>杏鮑菇南瓜濃湯</h3>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- note 湯品soup end -->
+
+        <!-- note 甜點 -->
+
+        <section id="dessert">
+            <div class="container">
+                <div class="row wow bounceIn">
+                    <h1 class="title">甜點</h1>
+                    <div class="photo col-sm-4 col-sm-offset-2 img-rounded" id="dessert-photo-1">
+                        <h3>卡式達泡芙</h3>
+                    </div>
+                    <div class="photo col-sm-4 img-rounded" id="dessert-photo-2">
+                        <h3>覆盆子奶酪</h3>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!-- note 甜點  end-->
+        <!-- note 飲料 -->
+
+        <section id="drink">
+            <div class="container">
+                <div class="row">
+                    <h1 class="title">飲料</h1>
+                    <div class="photo col-sm-4 col-sm-offset-4 img-rounded" id="drink-photo-1">
+                        <h3>飲料</h3>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+    </div>
+    <!-- note 飲料 end-->
+
+
+    <!-- footer -->
+    <footer id="footer">
+        <h1 class="section-title">Contact Us 訂位專線</h1>
+        <h4><a href="#" class="email">service@tasty.com.tw</a></h4>
+        <h4 class="phone">02-12347777</h4>
+        <div class="social-links">
+            <a href="#"><i class="fa fa-2x fa-facebook" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-2x fa-weixin" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-2x fa-envelope-open" aria-hidden="true"></i></a>
+        </div>
+        <div class="footer-bar">
+            <div class="container">
+                <ul>
+                    <!-- target="_blank" 開新分頁 -->
+                    <li><a href="http://partner.eztable.com/tasty" target="_blank">24hr線上訂位</a></li>
+                    <li><a href="#">Join us</a></li>
+                    <li><a href="#">Policy</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </footer>
+
+
+    <button id="goBack">TOP</button>
+</body>
+
+</html>

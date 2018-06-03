@@ -1,0 +1,15 @@
+{
+  "name": "astrology",
+  "version": "0.1.0",
+  "description": "簡易的占星遊戲",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "resnick <resnick1223>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
+  }
+}

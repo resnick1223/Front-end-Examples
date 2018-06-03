@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Karen's Food Webpage</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+</head>
+<body>
+    <div>
+        <div class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="row">
+                        <div class="navbar-header">
+                            <a href="" class="navbar-brand">Delicious food of Taiwan</a>
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="collapse navbar-collapse">
+                            <ul class="nav navbar-nav">
+                                    <li class="dropdown">
+                                        <a href="##" data-toggle="dropdown" class="dropdown-toggle">美食饗宴<span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li class="disabled"><a href="##">各國特色料理</a></li>
+                                                <li><a href="##">中式料理</a></li>
+                                                <li><a href="##">日式料理</a></li>
+                                                <li><a href="##">韓式料理</a></li>
+                                                <li><a href="##">泰式料理</a></li>
+                                                <li class="disabled"><a href="##">甜點類</a></li>
+                                                <li><a href="##">日式和菓子</a></li>
+                                                <li><a href="##">法式精緻甜點</a></li>
+                                                <li><a href="##">中式傳統糕點</a></li>
+                                            </ul>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="##" data-toggle="dropdown" class="dropdown-toggle">美食地圖<span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li class="disabled"><a href="##">各區好評店家</a></li>
+                                                <li><a href="##">北區</a></li>
+                                                <li><a href="##">中區</a></li>
+                                                <li><a href="##">南區</a></li>
+                                                <li><a href="##">東區</a></li>
+                                            </ul>
+                                    </li>
+                                <li><a href="#">隱藏小店</a></li>
+                                <li class="dropdown">
+                                        <a href="##" data-toggle="dropdown" class="dropdown-toggle">小編推薦<span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="##">料理類</a></li>
+                                                <li><a href="##">甜點類</a></li>
+                                            </ul>
+                                    </li>
+                                <li class="dropdown">
+                                        <a href="##" data-toggle="dropdown" class="dropdown-toggle">關於我們<span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="##">經營理念</a></li>
+                                                <li><a href="##">聯繫我們</a></li>
+                                            </ul>
+                                    </li>
+                            </ul>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li id="signup-icon"><a href="#"><span class="glyphicon glyphicon-user"></span> SIGN UP</a></li>
+                                <li id="login-icon"><a href="#"><span class="glyphicon glyphicon-user"></span> LOG IN</a></li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="container contentcontainer" id="titleImg" >
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2 class="description">Let's explore delicious food of Taiwan</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="container contentcontainer">
+            <div class="row">
+                <div class="col-md-4">
+                    <p id="user-search">Search</p>
+                        <div class="input-group">
+                           <input type="text" class="form-control" name="user-search" placeholder="輸入關鍵字" > 
+                            <span class="glyphicon glyphicon-search input-group-addon"></span>
+                        </div> 
+                        <br>    
+                        <div class="list-group">
+                                <a href="#" class="list-group-item disabled"><span class="glyphicon glyphicon-cutlery list-group-addon"></span>  美食達人來帶路 <span class="glyphicon glyphicon-cutlery list-group-addon"></span></a>
+                                <a href="#" class="list-group-item">外國人來台必吃</a>
+                                <a href="#" class="list-group-item">北部必去餐廳</a>
+                                <a href="#" class="list-group-item">中部必去餐廳</a>
+                                <a href="#" class="list-group-item">南部必去餐廳</a>
+                                <a href="#" class="list-group-item">東部必去餐廳</a>
+                                <a href="#" class="list-group-item disabled"><span class="glyphicon glyphicon-heart-empty list-group-addon"></span>  全台不分區必訪甜點店 <span class="glyphicon glyphicon-heart-empty list-group-addon"></span></a>
+                                <a id="link" href="#" class="list-group-item" >日式和菓子</a>
+                                <a id="link" href="#" class="list-group-item">法式精緻甜點</a>
+                                <a id="link" href="#" class="list-group-item">中式傳統糕點</a>
+                        </div>  
+                </div>
+                <div class="col-md-8">
+                    <div class="blog">
+                        <div class="hero-unit-1">
+                            <h2>日式和菓子特輯</h2>
+                            <p>甜點（所謂的「菓子」）在日本是從甚麼時候誕生的？據說得要追溯到1萬年多年前，早在日本人成為日本人之前，甜點的雛形就早已存在了。本篇文章小編將為大家帶來一系列在台灣的日式甜點店。</p> 
+                            <p id="whole-btn"><a class="btn btn-default btn-large" data-toggle="modal" data-target="#myModal-1">閱讀全文</a></p>
+                            <div class="modal fade" id="myModal-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                            <h4 class="modal-title" id="myModalLabel">精選日式和菓子店家</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            草ＤＯＲＯ(高雄)
+                                            <br>
+                                            地址：高雄市鼓山區龍水路209號
+                                            <br>
+                                            聯絡電話：0986-396-139
+                                            <br>
+                                            營業時間：平日下午1400~2200 (甜點售完會提早打烊），週六日下午1400~2200（甜點售完會提早打烊）※週三與四固定公休
+                                            <br>
+                                            高雄美術館附近的草DORO一直是頗有人氣的抹茶甜點店，老闆又會常常去日本取材獲得靈感，這樣的店很用心！小編自己也去了好幾次！這間店最特別的部分就是預約只能透過臉書私訊之後取得門禁密碼之後才可以順利吃到，不然直接去的話老闆可是會不讓你進門的喔。
+                                            <div class="thumbnail"><img src="./assets/macha.jpg" alt=""></div>
+                                            台灣鳳月堂-果樹園（桃園）
+                                            <br>
+                                            地址：桃園市桃園區桃園區中正五街223號
+                                            <br>
+                                            聯絡電話：03-355-8715
+                                            <br>
+                                            營業時間：週一 - 週日：11:00~22:00
+                                            <br>
+                                            東京‧赤阪‧鳳月堂」創立於1874年，是日本超人氣的甜點傳統名店，「東京‧赤阪‧鳳月堂」在台首家直營店取名為果樹園，是由台灣企業與日本公司攜手合作。在日本有130年歷史高人氣的甜點店，在台灣賣的是新穎口味的甜點，有電視採訪過的手捲蛋糕，可以當伴手禮的貝殼燒，還有烤的甜甜圈，另類的虎皮銅鑼燒，都是傳統手工求創新口味，禮盒包裝精美，送人的新選擇。
+                                            <div class="thumbnail"><img src="./assets/japan.jpg" alt=""></div>
+                                            Moment cafe & bakery（台北）
+                                            <br>
+                                            地址：台北市中山區樂群二路55號1F
+                                            <br>
+                                            聯絡電話：(02）7722-3397
+                                            <br>
+                                            營業時間：週一 - 週日：10:00～20:00
+                                            <br>
+                                            台北美福大飯店籌備多時的Moment cafe & bakery於7/14正式開幕，甜點當日新鮮製作，一定要試試「萊姆荔枝慕斯」，這是主廚為感謝妻子一路相伴而特別製作。另外還有選用京都小山園抹茶製成的「小山園抹茶香柚」，添加有自製榛果脆餡的12層「經典歐培拉」蛋糕，造型可愛口味豐富的「成長的滋味」，以及添加有紅、黑胡椒與迷迭香風味獨特的「迷迭香巧克力蛋糕」等多款精緻蛋糕，不定期更換的甜點品項，滿足甜點控的味蕾。
+                                            <div class="thumbnail"><img src="./assets/momentcafe.jpg" alt=""></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hero-unit-2">
+                            <h2>法式精緻甜點特輯</h2>
+                            <p>法國甜點是在於細緻度與甜度。法國因為氣候很冷也很乾，人們自然而然會想吃很甜的東西。至於細緻度，不管是做卡士達醬、慕斯或甘納許，要控制到氣孔很細或是 Cream 入口即化等等的程度。法式甜點對於每一層想呈現出的口感要求很不一樣，可能慕斯體裡的東西會有很脆的餅乾，在每種風味注入不同的元素，感覺就像在吃法式料理，融合很多不同的香氣與變化。</p> 
+                            <p id="whole-btn"><a class="btn btn-default btn-large" data-toggle="modal" data-target="#myModal-2">閱讀全文</a></p>
+                            <div class="modal fade" id="myModal-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                            <h4 class="modal-title" id="myModalLabel">精選經典法式甜點店家</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            L’Atelier de Joël Robuchon 侯布雄
+                                            <br>
+                                            地址：台北市大安區忠孝東路三段300號，捷運忠孝復興站2號出口
+                                            <br>
+                                            聯絡電話：02 2711 5128
+                                            <br>
+                                            營業時間：週日至週四 10:00-21:30／週五、週六及例假日前一天  10:00-22:00
+                                            <br>
+                                            L’Atelier de Joël Robuchon 侯布雄法式甜點店在台北SOGO百貨復興館(BR4)也開設了櫃位，有各式精製的馬卡龍、小塔、泡芙、蛋糕捲、三明治等。
+                                            <div class="thumbnail"><img src="./assets/french.jpg" alt=""></div>
+                                            Petite Amie 珀達蜜
+                                            <br>
+                                            地址：台中市西區五權西三街99號 
+                                            <br>
+                                            聯絡電話：04 2375 7711
+                                            <br>
+                                            營業時間：週一 - 週日：11:00~21:00
+                                            <br>
+                                            這間以法文Petite Amie好朋友來命名。由台中福爾摩莎園藝集團所創立，希望可以把藝術帶入甜點中，每個蛋糕都有自己的小故事呢！最近把畢卡索說的話加入設計，出季節限定的夏卡爾調色盤，店內眾多法式甜點，將常見的點心做了變化，不但外型更漂亮，味道上也讓人留戀。
+                                            <div class="thumbnail"><img src="./assets/french2.png" alt=""></div>
+                                            Silence 屏息
+                                            <br>
+                                            地址：臺南市東區中華東路三段336巷43弄6號 
+                                            <br>
+                                            聯絡電話：06 290 4775
+                                            <br>
+                                            營業時間：週二- 週日：12:00 - 20:00(每周一店休)
+                                            <br>
+                                            大家對這家店的印象應該都停留在霜淇淋居多，其實老闆可是位甜點達人，現在除了不定期推出的霜淇淋，更是有許多視覺系的塔類.手工餅乾.果霜餅可以選擇。
+                                            <div class="thumbnail"><img src="./assets/macaron.jpg" alt=""></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hero-unit-3">
+                            <h2>外國人來台必吃</h2>
+                            <p>CNN票選台灣40項必吃美食！美國有線電視新聞網CNN 2015年公布40項台灣小吃。本文專門介紹前10名以及推薦餐館，本次票選延續2014年的票選，國民美食天王「滷肉飯」依然奪冠，大家都愛滷肉飯！！</p> 
+                            <p id="whole-btn"><a class="btn btn-default btn-large" data-toggle="modal" data-target="#myModal-3">閱讀全文</a></p>
+                            <div class="modal fade" id="myModal-3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                            <h4 class="modal-title" id="myModalLabel">CNN票選台灣必吃美食</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            地址：台北市台北市中正區南陽街6號
+                                            <br>
+                                            聯絡電話：02-2396-0808
+                                            <br>
+                                            營業時間：週一 - 週日：8:00 - 1:00
+                                            <br>
+                                            滷肉飯的歷史可回朔到周朝，根據【周禮】當中【天官‧膳夫篇】所記，周朝大王每一頓飯會用上珍貴的菜式有八道，其中的二道為淳熬與淳母，都是將肉醬剁好，蓋在一盅米飯上，上面澆上脂油肉汁，由此可知今日我們熟悉的「滷肉飯」類似古代周朝的帝王美食「淳熬」與「淳母」。軟嫩帶脂的豬絞肉與紅蔥頭一起炒過，加上台灣傳統醬油，淋在飯上，醇美好吃！推薦台北羅斯福路上的金鋒滷肉飯。
+                                            <div class="thumbnail"><img src="./assets/foreiner1.jpg" alt=""></div>
+                                            地址：台北市中山區八德路二段274號(中央日報旁) 
+                                            <br>
+                                            聯絡電話：02-2752-2556
+                                            <br>
+                                            營業時間：週一 - 週六：11:00~14:30
+                                            <br>
+                                            清燉牛肉麵被認為是起源於回族，而紅燒牛肉麵則普遍認為源起於臺灣高雄市岡山區空軍眷村，牛肉麵湯的濃美與牛肉的嫩度、麵條的口感都是關鍵。推薦牛肉麵冠軍，台北八德路林東芳牛肉麵。
+                                            <div class="thumbnail"><img src="./assets/beef.jpg" alt=""></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">Copy Right &copy; 2017 All Right Reserved</footer>
+    <script>$(".contentcontainer").css("min-height",$(window).height());</script>
+</body>
+</html>
