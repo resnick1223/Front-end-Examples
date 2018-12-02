@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.iphone {
+    position: relative;
+    left: 100px;
+    border: 1px solid;
+    width: 236px;
+    height: 476px;
+    border-radius: 31px;
+    background-position-x: -202px;
+    background-position-y: -2px;
+}
+
+.screen {
+    width: 210px;
+    height: 367px;
+    position: absolute;
+    background-color: black;
+    top: 54px;
+    left: 12px;
+    border-radius: 3px;
+}
+
+.front-camera {
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    background-color: black;
+    border-radius: 50%;
+    left: 73px;
+    top: 26.5px;
+}
+
+.home {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    border: 2px solid grey;
+    border-radius: 50%;
+    left: 102px;
+    bottom: 13px;
+}

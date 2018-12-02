@@ -1,0 +1,53 @@
+.hidden {
+    display: none;
+}
+
+.user-photo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+#chatroom {
+    background-color: #ddd;
+    border-radius: 15px;
+}
+
+#login img {
+    max-width: 100%;
+}
+
+#messages {
+    overflow: auto;
+    height: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.message {
+    margin: 10px 5px;
+}
+
+.message-content {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#typing {
+    width: 90%;
+}
+
+#typing img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.message {
+    text-align: right;
+}
+
+.current-user {
+    text-align: left;
+}

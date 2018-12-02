@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+/* remove default spaces */
+html,
+body,
+header,
+footer,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    height: 300px;
+    text-align: center;
+    background-image: url("https://picsum.photos/1400/300?image=1051");
+    background-size: cover;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-block {
+    width: 25%;
+    text-align: center;
+}
+
+.image-block>img {
+    width: 90%;
+}
+
+.activities {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.activity {
+    width: 25%;
+    padding: 10px;
+    font-size: 11px;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif !important;
+}
+
+.activity-image>img {
+    width: 100%;
+}
