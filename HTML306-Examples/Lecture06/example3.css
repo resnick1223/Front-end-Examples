@@ -1,0 +1,18 @@
+.images {}
+
+.image {
+    width: 200px;
+}
+
+.image img {
+    width: 100%;
+}
+
+[src$=".png"],
+[src$=".PNG"] {
+    border: 2px solid blue;
+}
+
+[src$=".jpg"] {
+    border: 2px solid red;
+}

@@ -1,0 +1,34 @@
+header,
+footer,
+aside,
+main {
+    border: 2px solid black;
+}
+
+.container {
+    border: 3px solid blue;
+}
+
+.container:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header {
+    width: 100%;
+}
+
+aside {
+    width: 20%;
+    float: left;
+}
+
+main {
+    width: 80%;
+    float: left;
+}
+
+footer {
+    width: 100%;
+}

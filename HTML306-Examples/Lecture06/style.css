@@ -1,0 +1,73 @@
+.card {
+    position: relative;
+    width: 400px;
+}
+
+.card:after {
+    content: "";
+    display: block;
+    width: 400px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: background-color 1s;
+}
+
+.card:hover:after {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.card img {
+    display: block;
+}
+
+
+.card-body {
+    border: 2px solid white;
+    height: 100px;
+    width: 400px;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    color: white;
+    opacity: 0;
+    z-index: 100;
+    text-align: center;
+    transition: opacity 2s;
+}
+
+.card:hover .card-body {
+    opacity: 1;
+}
+
+
+.arrow-right {
+    background-color: black;
+    height: 100px;
+    width: 200px;
+    position: relative;
+}
+
+.arrow-right:before {
+    width: 0;
+    height: 0;
+    content: "";
+    border: 50px solid black;
+    border-color: transparent transparent transparent white;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.arrow-right:after {
+    width: 0;
+    height: 0;
+    content: "";
+    border: 50px solid black;
+    border-color: transparent transparent transparent black;
+    position: absolute;
+    top: 0;
+    left: 200px;
+}
