@@ -7,8 +7,8 @@
 - HTML5, CSS3, jQuery, Bootstrap 網頁設計基礎班 上<br>
 主要著重在HTML，CSS，與Bootstrap
 - HTML5, CSS3, jQuery, Bootstrap 網頁設計基礎班 下<br>
-主要著重在JavaScript，jQuery與 Firebase。<br>
-這堂課希望大家深入了解基礎語法，並且透過完成一個專題，來幫助自己學以致用。
+主要著重在JavaScript，jQuery與 Firebase。<br>
+這堂課希望大家深入了解基礎語法，並且透過完成一個專題，來幫助自己學以致用。
 
 ### 基礎上 課程大綱
 ---
