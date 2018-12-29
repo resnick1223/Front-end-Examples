@@ -1,7 +1,0 @@
-@mixin make-columns($screen_size, $total-columns) {
-    @for $index from 1 through $total-columns {
-        .col-#{$screen-size}-#{$index} {
-            width: calc(100% * #{$index} / #{$total-columns});
-        }
-    }
-}

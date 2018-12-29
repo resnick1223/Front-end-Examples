@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "bootstrap": "^3.3.7",
-    "easy-storage-resnick": "^0.1.0",
-    "jquery": "^3.2.1",
-    "moment": "^2.18.1"
-  }
-}
