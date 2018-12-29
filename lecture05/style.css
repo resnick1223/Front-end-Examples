@@ -1,0 +1,124 @@
+/* 
+    取消預設設定
+*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+article,
+section,
+aside,
+nav,
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* 
+    基礎區塊設定
+*/
+* {
+    box-sizing: border-box;
+}
+
+/* 框線 */
+.border-red {
+    border: 2px solid red;
+}
+
+/* 容器設定 */
+/* 行動優先 容器大小 100% */
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* 滿版用的容器 */
+.container-fluid {
+    width: 100%;
+}
+
+
+/* 
+    主區塊設定 
+*/
+/* header 頁首*/
+header {
+    color: white;
+    height: 400px;
+    padding-top: 300px;
+    background-image: url("https://picsum.photos/1920/500?image=1072");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header .container-fluid {
+    height: 100px;
+    border: 3px solid blue;
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1140px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199.99px) {
+    .container {
+        width: 960px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.99px) {
+    .container {
+        width: 720px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767.99px) {
+    .container {
+        width: 540px;
+    }
+
+    header {
+        color: white;
+        height: 400px;
+        padding-top: 250px;
+        background-image: url("../images/header-md.PNG");
+        background-position-x: -100px;
+    }
+}
+
+@media screen and (max-width: 575.99px) {
+
+    /* header 頁首*/
+    header {
+        color: white;
+        height: 400px;
+        padding-top: 250px;
+        background-image: url("../images/header-xs.PNG");
+    }
+
+    header .container-fluid {
+        height: 150px;
+        border: 3px solid green;
+    }
+}
+
+.pokemon {
+    width: 80px;
+    height: 80px;
+    background-image: url("../images/Pokemon_pokedex_1-649.png");
+}
+
+.pokemon-2 {
+    background-position-x: -80px;
+}
+
+/* 導覽列設定 */

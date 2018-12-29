@@ -1,0 +1,13 @@
+header {
+    padding: 20px;
+}
+
+.lecture {
+    float: left;
+    width: calc(800px / 3);
+    padding: 10px;
+}
+
+.lecture img {
+    width: 100%;
+}
