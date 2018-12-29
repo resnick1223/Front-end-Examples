@@ -1,0 +1,28 @@
+.iphone {
+    position: relative;
+    width: 235px;
+    height: 478px;
+    border: 1px solid black;
+    /* background-image: url("https://d3c6c8kv4if4l0.cloudfront.net/www/Product/12763/albums/extra_large/Apple_iPhone_7_Plus_128GB20170121052907uid6308.jpg"); */
+    background-position: -195px -2px;
+    border-radius: 35px;
+}
+
+.screen {
+    width: 207px;
+    height: 364px;
+    position: absolute;
+    top: 54px;
+    left: 14px;
+    /* background-color: black; */
+}
+
+.home-btn {
+    position: absolute;
+    top: 429px;
+    left: 100px;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    border: 1px solid;
+}

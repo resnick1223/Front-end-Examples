@@ -1,0 +1,28 @@
+.profile-img {
+    border-radius: 50%;
+}
+
+[class^="col-"] {
+    padding: 15px;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+
+.navbar {
+    border: 1px solid black;
+}
+
+.navbar ul {
+    display: flex;
+    flex-flow: row wrap;
+    list-style-type: none;
+    justify-content: flex-end;
+}
+
+.navbar ul>li {
+    border: 1px solid black;
+    height: 50px;
+    width: 100px;
+    line-height: 48px;
+    text-align: center;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./animate.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h3>心理測驗：今年老闆會幫我加薪嗎？</h3>
+                    <p>工作努力、表現優秀，是加薪的必要條件，但卻不是絕對保證；想加薪，還得要有長官緣、貴人助，更要集天時地利人和於一身，加薪才有指望。公司大老闆突然來訪，秘書臨時請你幫忙準備飲料，你會幫大老闆準備什麼飲料？</p>
+                    <div id="submit-btn" class="btn btn-lg btn-primary">點我看答案</div>
+                    <div id="menu1" class="btn btn-lg btn-success">
+                        下拉選單
+                        <ul class="d-none">
+                            <li>item 1</li>
+                            <li>item 2</li>
+                            <li>item 3</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-control">
+                        <input name="answer" type="radio" value="1">
+                        <label for="answer">紅茶</label>
+                        <p id="answer-1" class="d-none">
+                            加薪機率非常大！你所付出的努力將能獲得應有的回報，因為你總是可以順利完成長官交付的任務，也能和同事保持愉快的合作關係，所以好名聲為你帶來好財運。記住：你愈是樂於和人分享工作成果，那麼幸運就會時時圍繞著你喔！
+                        </p>
+                    </div>
+                    <div class="form-control">
+                        <input name="answer" type="radio" value="2">
+                        <label for="answer">咖啡</label>
+                        <p id="answer-2" class="d-none">
+                            你的實力與表現有目共睹，可以要求加薪也有成功機會，不過最主要還是得看公司整體營運狀況，若老闆有過度投資或愛畫大餅的習慣，那麼加薪之期恐怕遙遙無期，所以不如考慮換個環境，自己幫自己加薪還比較快一點。 </p>
+                    </div>
+                    <div class="form-control">
+                        <input name="answer" type="radio" value="3">
+                        <label for="answer">綠茶</label>
+                        <p id="answer-3" class="d-none">
+                            能不能加薪關鍵在你！正所謂天助自助者，若想得到老闆賞識並獲得加薪機會的話，就得先強化自己的專業知識與技能，要怎麼收穫就要先怎麼栽，靠著努力工作與積極表現，不但能使自己更上層樓，也可獲得應有的報酬。</p>
+                    </div>
+                    <div class="form-control">
+                        <input name="answer" type="radio" value="4">
+                        <label for="answer">白開水</label>
+                        <p id="answer-4" class="d-none">
+                            今年加薪機會渺茫！這份工作給你的壓力不小，儘管你已全力以赴，但仍有力不從心的感覺，且易因工作績效不彰被老闆高度關切，建議你不妨多向同事請教或換個方式進行，千萬別因一時挫折就產生放棄念頭，時時自我督促才是進步之道。</p>
+                    </div>
+                    <div class="form-control">
+                        <input name="answer" type="radio" value="5">
+                        <label for="answer">奶茶</label>
+                        <p id="answer-5" class="d-none">
+                            雖然加薪成功的機率不大，但是你仍得努力為自己的權益出頭，別只當個埋頭苦幹的員工，該表現時千萬不能退讓，也不要讓情緒影響了你的工作表現。此外，建議你勤奮要用在對的地方，多和老闆討論工作，能讓老闆對你有好印象！</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
