@@ -1,0 +1,25 @@
+.box {
+    border: 1px solid;
+    width: 100px;
+    height: 100px;
+    line-height: 98px;
+    text-align: center;
+}
+
+
+
+#box-1 {
+    order: 2;
+}
+
+#box-2 {
+    order: 1;
+}
+
+#box-3 {
+    order: 4;
+}
+
+#box-4 {
+    order: 3;
+}

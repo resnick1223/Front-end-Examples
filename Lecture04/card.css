@@ -1,0 +1,47 @@
+.card {
+    width: 25%;
+    border: 1px solid #666;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 10px;
+    box-shadow: 1px 1px 10px black;
+}
+
+.card-image img {
+    width: 100%;
+}
+
+.card-body h3 {
+    text-shadow: 1px 1px 1px black;
+
+}
+
+.cards {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+@media screen and (max-width: 420px) {
+    .card {
+        width: 100%;
+        border-radius: 0;
+        margin: 0;
+        border-width: 0;
+        border-bottom: 1px solid black;
+        margin-bottom: 10px;
+    }
+
+    .cards {
+        flex-flow: row wrap;
+    }
+}
+
+@media screen and (min-width: 420.01px) and (max-width: 1024px) {
+    .card {
+        width: calc(50% - 20px);
+    }
+
+    .cards {
+        flex-flow: row wrap;
+    }
+}

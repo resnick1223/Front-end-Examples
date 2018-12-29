@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <style>
+            .red {
+                color: red;
+            }
+        </style>
+    </head>
+
+    <body>
+        <input type="text" id="text">
+        <div id="message"></div>
+
+        <script>
+            // 宣告一個變數 name 設定為 張元鴻
+            var name = "張元鴻";
+            var input = document.querySelector("#text");
+            var messageDiv = document.querySelector("#message");
+
+
+            input.addEventListener("keyup", function (e) {
+                messageDiv.innerHTML = `<h1>${input.value}</h1>`;
+            });
+        </script>
+    </body>
+
+</html>
