@@ -1,0 +1,15 @@
+{
+  "name": "lecture04",
+  "version": "0.0.1",
+  "description": "TITLE:  Crew - Responsive Free HTML5 template",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "resnick <resnick1223>",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "jquery": "^3.2.1"
+  }
+}
