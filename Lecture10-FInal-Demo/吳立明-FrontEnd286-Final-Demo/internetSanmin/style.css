@@ -1,0 +1,29 @@
+
+.header-navigation .dropdown {
+    list-style:none;
+    float:left;
+    width:250px;
+    background:#CCC;
+    margin-left:3px;
+    line-height:30px;
+      
+} 
+
+
+.header-navigation .dropdown :hover {
+    color:#FFF; 
+    font-weight:bold;
+    text-decoration:underline;
+    background:blueviolet;
+}
+
+.header-navigation .dropdown ul {
+    list-style:none;
+    float:left;
+    width:250px;
+    background:#CCC;
+    margin-left:3px;
+    line-height:30px;
+      display: none; 
+} 
+

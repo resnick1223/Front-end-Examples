@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:400,900');
+@import url('https://fonts.googleapis.com/css?family=Bellefair|Muli:400i,900');
+* {}
+
+.navbar {
+    display: block;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    color: white;
+    font-family: 'Muli', sans-serif;
+    font-weight: 900;
+    background-color: #1d5e98;
+    position: relative;
+}
+
+.navbar h1 {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+    font-size: bold;
+}
+
+.navbar-header {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: bold;
+}
+
+.navbar-nav {
+    right: 0;
+    position: absolute;
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar-nav li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    float: left;
+    list-style: none;
+    padding: 30px;
+}
+
+.service-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.item img,
+.item-active img {
+    margin: 0 auto;
+}
+
+.dropdown-list {
+    float: right;
+    padding: 20px;
+}
+
+[id^="dropdown-option-"],
+#dropdown-btn {
+    padding: 10px;
+    text-align: center;
+    background-color: #1d5e98;
+    border: solid 1px #c3c3c3;
+}
+
+[id^="dropdown-option-"] {
+    padding: 10px;
+    display: none;
+}

@@ -1,0 +1,37 @@
+[class^="pokemon-"] {
+    text-align: center;
+}
+
+.user-candy img,
+.user-stardust img,
+.powerup-stardust img,
+.powerup-candy img {
+    width: 30px;
+    height: 30px;
+}
+
+.pokemon-types h3,
+.pokemon-weight h3,
+.pokemon-height h3 {
+    font-size: 16px;
+}
+
+.pokemon-cp {
+    font-size: 26px;
+}
+
+.pokemon-name {
+    font-size: 24px;
+}
+
+#user-property {
+    height: 50px;
+    margin: 20px auto;
+    border-bottom: 2px solid #ddd;
+}
+
+#pokemon-property {
+    height: 150px;
+    margin: 20px auto;
+    border-bottom: 2px solid #ddd;
+}

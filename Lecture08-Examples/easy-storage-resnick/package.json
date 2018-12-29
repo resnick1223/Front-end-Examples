@@ -1,0 +1,16 @@
+{
+  "name": "easy-storage-resnick",
+  "version": "0.1.2",
+  "description": "easy webstorage package.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webstorage",
+    "localstorage",
+    "sessionstorage"
+  ],
+  "author": "resnick <resnick1223@gmail.com>",
+  "license": "MIT"
+}

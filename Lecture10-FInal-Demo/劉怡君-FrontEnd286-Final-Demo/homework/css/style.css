@@ -1,0 +1,324 @@
+        @charset "UTF-8";
+        @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700");
+        section {
+            padding-top: 30px;
+            padding-bottom: 30px;
+            background-color: #fff;
+        }
+        /*  背景色*/
+        
+        .allmeat,
+        section {
+            background-image: url('../img//bg.jpg');
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        a,
+        button {
+            font-family: 'Roboto', sans-serif, 微軟正黑體;
+            color: #56b4b4;
+            text-shadow: 0px 2px 3px #3b3b3b;
+            /* x偏移值 y偏移值 模糊程度 顏色*/
+        }
+        
+        h1 {
+            font-size: 40px;
+            text-align: center;
+            font-weight: bold;
+        }
+        
+        h2 {
+            font-size: 28px;
+        }
+        
+        h3 {
+            font-size: 22px;
+            font-weight: bold;
+        }
+        
+        h4 {
+            font-size: 20px;
+        }
+        /*訂位專線*/
+        
+        .section-title {
+            text-align: center;
+            font-weight: 500;
+        }
+        /* 圖片*/
+        
+        .photo {
+            height: 250px;
+            text-align: center;
+            -webkit-background-size: cover;
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding-left: 0;
+            padding-right: 0;
+            /*
+            padding: auto 5px; */
+            /* 邊線 */
+            border: 4px solid rgba(255, 255, 255, 0.6);
+            border-radius: 15px;
+            filter: grayscale(80%);
+            box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.5);
+            /* 陰影*/
+            transition: all 0.5s ease;
+            -moz-transition: all 0.5s ease;
+            -webkit-transition: all 0.5s ease;
+        }
+        
+        .photo h3,
+        .photo h4 {
+            color: white;
+            font-size: 6px;
+            letter-spacing: 2px;
+            text-shadow: 0 1px 15px rgba(0, 0, 0, 0.5);
+            line-height: 250px;
+            margin-top: 0;
+            margin-bottom: 0;
+            opacity: 0;
+            transition: all 0.5s ease;
+            -moz-transition: all 0.5s ease;
+            -webkit-transition: all 0.5s ease;
+        }
+        /*上面廣告圖*/
+        
+        #advertising {
+            padding-top: 32px;
+        }
+        
+        #item1 {
+            background-image: url("../img/ad-1.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        #item2 {
+            background-image: url("../img/ad-2.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        #item3 {
+            background-image: url("../img/ad-5.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        /*菜單圖片*/
+        
+        #cheap-photo-1 {
+            background-image: url("../img/%E5%8E%9F%E5%A1%8A%E7%89%9B%E6%8E%92.png")
+        }
+        
+        #cheap-photo-2 {
+            background-image: url("../img/%E6%99%82%E8%94%AC%E5%8E%9A%E5%88%87%E7%87%89%E7%89%9B%E6%8E%92.png")
+        }
+        
+        #cheap-photo-3 {
+            background-image: url("../img/ABK%E7%89%9B%E6%8E%92.png")
+        }
+        
+        #cheap-photo-4 {
+            background-image: url("../img/%E7%BE%A9%E5%BC%8F%E4%B8%81%E9%AA%A8%E8%B1%AC%E6%8E%92.png")
+        }
+        
+        #cheap-photo-5 {
+            background-image: url("../img/%E6%B3%95%E5%BC%8F%E7%83%A4%E9%9B%9E.png")
+        }
+        
+        #cheap-photo-6 {
+            background-image: url("../img/%E6%B5%B7%E9%99%B8%E9%9B%99%E6%8B%BC.png")
+        }
+        
+        #expensivep-photo-1 {
+            background-image: url("../img/%E9%87%91%E7%A3%9A%E7%89%9B%E6%8E%92.png")
+        }
+        
+        #expensivep-photo-2 {
+            background-image: url("../img/%E5%AB%A9%E7%85%8E%E7%89%9B%E6%8E%92%E4%BD%90%E6%9D%BE%E9%9C%B2%E7%B4%85%E9%85%92.png")
+        }
+        
+        #expensivep-photo-3 {
+            background-image: url("../img/%E9%A6%99%E7%85%8E%E9%B4%A8%E8%83%B8%E4%BD%90%E6%AB%BB%E6%A1%83%E7%B4%85%E9%85%92.png")
+        }
+        
+        #expensivep-photo-4 {
+            background-image: url("../img/%E7%95%AA%E8%8C%84%E9%87%8E%E8%8F%87%E9%B1%B8%E9%AD%9A.png")
+        }
+        
+        #salad-photo-1 {
+            background-image: url("../img/%E6%B4%8B%E8%8A%8B%E6%B2%99%E6%8B%89.png")
+        }
+        
+        #salad-photo-2 {
+            background-image: url("../img/%E6%99%82%E4%BB%A4%E6%B0%B4%E6%9E%9C.png")
+        }
+        
+        #salad-photo-3 {
+            background-image: url("../img/%E7%B4%90%E5%A5%A7%E8%89%AF%E9%9B%9E%E8%82%89%E6%B2%99%E6%8B%89.png")
+        }
+        
+        #appetizer-photo-1 {
+            background-image: url("../img/%E7%84%97%E7%83%A4%E8%98%91%E8%8F%87%E6%96%B9%E5%A1%8A%E9%BA%B5%E5%8C%85.png")
+        }
+        
+        #appetizer-photo-2 {
+            background-image: url("../img/%E5%A4%8F%E5%A8%81%E5%A4%B7%E4%B8%B9%E9%BA%A5%E9%A4%85.png")
+        }
+        
+        #soup-photo-1 {
+            background-image: url("../img/%E7%BE%A9%E5%BC%8F%E6%B5%B7%E9%AE%AE%E6%B8%85%E6%B9%AF.png")
+        }
+        
+        #soup-photo-2 {
+            background-image: url("../img/%E9%AE%AE%E8%94%AC%E9%9B%9E%E8%82%89%E6%B8%85%E6%B9%AF.png")
+        }
+        
+        #soup-photo-3 {
+            background-image: url("../img/%E6%9D%8F%E9%AE%91%E8%8F%87%E5%8D%97%E7%93%9C%E6%BF%83%E6%B9%AF.png")
+        }
+        
+        #dessert-photo-1 {
+            background-image: url("../img/%E5%8D%A1%E5%BC%8F%E9%81%94%E6%B3%A1%E8%8A%99.png")
+        }
+        
+        #dessert-photo-2 {
+            background-image: url("../img/%E8%A6%86%E7%9B%86%E5%AD%90%E5%A5%B6%E9%85%AA.png")
+        }
+        
+        #drink-photo-1 {
+            background-image: url("../img/%E9%A3%B2%E6%96%99.png")
+        }
+        
+        .photo:hover {
+            filter: grayscale(0%);
+        }
+        
+        .photo:hover h3 {
+            font-size: 45px;
+            opacity: 1;
+        }
+        
+        .photo:hover h4 {
+            font-size: 35px;
+            opacity: 1;
+            font-weight: bold;
+        }
+        /* 廣告圖 */
+        
+        #slideshow .item {
+            height: 350px;
+            width: 100%;
+        }
+        
+        .carousel-control.left,
+        .carousel-control.right {
+            background-image: none;
+        }
+        
+        @media screen and (max-width: 767px) {
+            #slideshow .item {
+                height: 500px;
+            }
+        }
+        /* note footer */
+        
+        footer {
+            padding-top: 30px;
+            background-color: #3f5b6f;
+            color: white;
+            text-align: center;
+        }
+        
+        footer * {
+            color: white;
+        }
+        
+        .footer-bar {
+            width: 100%;
+            height: 50px;
+            background-color: #22262c;
+        }
+        
+        .footer-bar ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+        
+        .footer-bar ul>li {
+            float: left;
+            line-height: 50px;
+            margin-right: 10px;
+        }
+        
+        .social-links a {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-right: 8px;
+            background-color: rgba(255, 255, 255, 0.3);
+            width: 40px;
+            height: 40px;
+            display: inline-block;
+            border-radius: 5px;
+            text-align: center;
+        }
+        
+        .social-links a:hover {
+            background-color: white;
+        }
+        
+        .social-links a>i.fa:before {
+            line-height: 40px;
+            color: #3e769d;
+        }
+        
+        #goBack {
+            width: 45px;
+            height: 45px;
+            background: #466262;
+            color: white;
+            position: fixed;
+            bottom: 5px;
+            right: 5px;
+            border-radius: 15%;
+            -moz-border-radius: 15%;
+            -webkit-border-radius: 15%;
+        }
+        
+        #goBack:focus {
+            outline: none;
+        }
+        
+        .sub-dropdown-menu {
+            display: none;
+            list-style: none;
+            font-size: 20px;
+            font-family: 'Roboto', sans-serif, 微軟正黑體;
+        }
+        /*
+        .meat-cheap:hover>.sub-dropdown-menu,
+        .meat-expensive:hover>.sub-dropdown-menu {
+            display: block;
+            width: 200px;
+        }
+*/
+        
+        .meat-cheap:hover>ul,
+        .meat-expensive:hover>ul {
+            display: block;
+            width: 230px;
+            color: white;
+        }
+        
+        .sub-dropdown-menu>li:hover {
+            background: #4e892e;
+            cursor: pointer;
+        }

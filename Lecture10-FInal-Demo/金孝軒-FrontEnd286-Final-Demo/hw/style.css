@@ -1,0 +1,45 @@
+[class^="title"] {
+    text-align: center;
+    font-size:45px;
+    border-bottom: 2px solid gray;
+}
+#description1{
+   font-size:15px; 
+}
+[class^="usage"] {
+    font-size:30px;
+    color: gray;
+}
+[class^="contactinfo"] {
+    font-size:30px;
+    color: gray;
+}
+#btn1{
+   background-color: #444;
+   border: darkblue; 
+   color: white;
+   text-align: center;
+   font-size: 24px;
+}
+#btn2{
+   background-color: #444;
+   border: darkblue; 
+   color: white;
+   text-align: center;
+   font-size: 24px;
+}
+#btn3{
+   background-color: #444;
+   border: darkblue; 
+   color: white;
+   text-align: center;
+   font-size: 24px;
+}
+.picture1 img, 
+.picture2 img, 
+.picture3 img, 
+.picture4 img,
+.picture5 img{
+    width:400px;
+    height:400px;
+}

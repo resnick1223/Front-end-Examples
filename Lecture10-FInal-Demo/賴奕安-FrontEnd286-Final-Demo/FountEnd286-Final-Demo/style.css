@@ -1,0 +1,40 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #bbb;
+    font-size: 11pt;
+    font-weight: 400;
+}
+
+#header-wrapper {
+    overflow: hidden;
+    background-size: 100%;
+    padding: 6em 0em 2em 0em;
+    background: #333333;
+}
+
+#header {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+#logo {
+    width: 500px;
+    height: 200px;
+    margin: 0 auto;
+    padding: 2em 0em;
+    color: #fff;
+}
+
+#logo h1 {
+    letter-spacing: 0.10em;
+}
+
+#logo p {
+    letter-spacing: 0.10em;
+}
+
+#copyright {
+    text-align: center;
+}
