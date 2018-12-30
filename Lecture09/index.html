@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lecture 09</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light mb-3">
+        <a class="navbar-brand" href="#">占星之門</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">星座命盤 <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">雙人合盤</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">Dropdown</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="#">Action 1</a>
+                        <a class="dropdown-item" href="#">Action 2</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col-12">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">心理測驗</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">個性</li>
+                    </ol>
+                </nav>
+            </div>
+            <div class="col-8">
+                <h3>心理測驗：第一眼！看出你的個性...</h3>
+                <p>第一眼看到這張圖時，你最先注意到什麼？</p>
+                <img src="https://astrodoor.cc/images/testyourmind/wow/wow.jpg" alt="">
+
+                <section class="answers mb-3 mt-3">
+                    <div id="answer1">
+                        <div class="form-control">
+                            <input type="radio" name="answer" value="1">
+                            <label>吉他</label>
+                        </div>
+
+                        <div class="description d-none">
+                            <p>吉他 ─ 燃燒熱血，力挺朋友</p>
+                            <p>
+                                你個性天真、熱血，對朋友總是兩肋插刀。只要是自己喜歡的事，更是一股腦往前衝。在愛情上，你總是慢人一拍，常令旁人不解你是真傻還是裝傻，但其實你是真正的天然呆，不過當你愛上了某個人，你就會奮不顧身。
+                            </p>
+                            <p>代表人物　陳怡君（陳怡蓉飾）</p>
+                        </div>
+                    </div>
+                    <div id="answer2">
+                        <div class="form-control">
+                            <input type="radio" name="answer" value="2"> <label for="">大聲公</label>
+                        </div>
+                        <div class="description d-none">
+                            <p>大聲公 ─ 正義至上，大膽發聲</p>
+                            <p>最討厭不公不義的事，發現不公正的事，你總是衝第一。有領袖特色，能帶領大家朝目標前進，但缺少細心特質。在愛情上，你是大男(女)人外表，小男(女)孩內心，對於另一半的請求，你一定使命必達，即便內心有遲疑，也不忍心說不。外表看起來很堅強，其實心裡很脆弱的。</p>
+                            <p>代表人物　黃兆元（鄒承恩飾）</p>
+                        </div>
+                    </div>
+                    <div id="answer3">
+                        <div class="form-control">
+                            <input type="radio" name="answer" value="3"> <label for="">議事槌</label>
+                        </div>
+                        <div class="description d-none">
+                            <p>議事槌 ─ 運籌帷幄，絕不衝動</p>
+                            <p>你很聰明，做事細心、善規劃，面對問題時，你總是有憑有據，讓對方根本吵不贏你。但在愛情上，你是標準草食暖男(女)，總是默默付出、靜靜守護，就算對方不知道你喜歡他，你也甘之如飴，因為只要對方開心，你就開心。</p>
+                            <p>代表人物　江也晴（姚元浩飾）</p>
+                        </div>
+                    </div>
+                    <div id="answer4">
+                        <div class="form-control">
+                            <input type="radio" name="answer" value="4"> <label for="">採訪 MIC</label>
+                        </div>
+                        <div class="description d-none">
+                            <p>採訪 mic ─ 有夢必追，麵包至上</p>
+                            <p>你是個有夢必追的人！為了達成目標，要你做什麼都可以！在愛情上，你是個超級有主見的人，當另一半達不到你的要求時，你總是感到失望。如果這世上只剩愛情和麵包，你會毫不猶豫地選擇麵包。</p>
+                            <p>代表人物　沙冰娜（李千娜飾）</p>
+                        </div>
+                    </div>
+                    <div id="answer5">
+                        <div class="form-control">
+                            <input type="radio" name="answer" value="5"> <label for="">國父肖像</label>
+                        </div>
+                        <div class="description d-none">
+                            <p>國父肖像 ─ 監看時事，把握動脈</p>
+                            <p>身邊人的一舉一動，總是逃不過你的法眼，你在乎的人的資訊、動態，你都想要掌控著。你是個小心翼翼的人，執行任何計畫時，絕不容許有任何閃失。因為工作，你總是忽略了愛情，有些時候不妨放輕鬆點吧！
+                            </p>
+                            <p>代表人物　連百合（柯淑勤飾）
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <button id="show-answer-btn" type="button" class="btn btn-outline-danger">點我看解答</button>
+
+            </div>
+            <div class="col-4">
+                <h3>文章分類目錄</h3>
+                <section>
+                    <h4>
+                        占星技巧分類
+                    </h4>
+                    命盤分析 流年運勢 卜卦問事 人際合盤 地理占星 十二星座 開運風水 古典占星 星座配對
+                </section>
+                <section>
+                    <h4>
+                        占星詞彙百科
+                    </h4>
+                    行星 星座 宮位 相位 三方 四正 水逆
+                </section>
+                <section>
+                    <h4>
+                        星座命盤解析
+                    </h4>
+                    太陽宮位 月亮宮位 水星宮位 金星宮位 火星宮位 木星宮位 土星宮位
+                </section>
+                <section>
+                    <h4>
+                        雙人合盤解析
+                    </h4>
+                    太陽宮位 月亮宮位 水星宮位 金星宮位 火星宮位 木星宮位 土星宮位
+                </section>
+                <section>
+                    <h4>
+                        站務與心理測驗
+                    </h4>
+                    站務 愛情 事業 個性
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 當視窗載入完成所要做的事情
+        $(function () {
+            // 程式碼都寫這邊
+
+            $("#show-answer-btn").click(function () {
+
+                // 取得勾選到的選項的值
+                var checkedValue = $("input:checked").val();
+
+                // 根據這個值 產生 id
+                var answerId = "#answer" + checkedValue;
+
+                // 利用這個 id 找到 被消失的 description 
+                var selector = answerId + " .description";
+                console.log(selector);
+
+                // 移除d-none之前 先把所有description加回d-none
+                $(".description").addClass("d-none");
+
+                // 找到以後 移除 它上面的 d-none class
+                $(selector).removeClass("d-none");
+
+            });
+        });
+    </script>
+</body>
+
+</html>
