@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lecture01</title>
+</head>
+
+<body>
+
+    <input type="text" id="message">
+    <button onclick="addListItem()">點我</button>
+    <ul id="messages">
+
+    </ul>
+    <script>
+        function addListItem() {
+            var innerHTML = document.getElementById("messages").innerHTML;
+            var message = document.getElementById("message").value;
+            document.getElementById("messages").innerHTML = innerHTML +
+                `<div class="peer peer-greed"><div class="layers ai-fs gapY-5"><div class="layer"><div class="peers fxw-nw ai-c pY-3 pX-10 bgc-white bdrs-2 lh-3/2"><div class="peer mR-10"><small>10:00 AM</small></div><div class="peer-greed"><span>${message}</span></div></div></div><div class="layer"><div class="peers fxw-nw ai-c pY-3 pX-10 bgc-white bdrs-2 lh-3/2"><div class="peer mR-10"><small>10:00 AM</small></div><div class="peer-greed"><span>the printing and typesetting industry.</span></div></div></div><div class="layer"><div class="peers fxw-nw ai-c pY-3 pX-10 bgc-white bdrs-2 lh-3/2"><div class="peer mR-10"><small>10:00 AM</small></div><div class="peer-greed"><span>Lorem Ipsum has been the industry's</span></div></div></div></div></div>`;
+        }
+    </script>
+</body>
+
+</html>

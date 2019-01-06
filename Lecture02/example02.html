@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>分期計算機</title>
+</head>
+
+<body>
+
+    <div class="form-control">
+        <label for="price">分期本金：</label>
+        <input id="price" type="number" value="17800">
+    </div>
+    <div class="form-control">
+        <label for="periods">期　　數：</label>
+        <input type="number" name="" id="periods" value="3">
+    </div>
+    <button onclick="calculate()">計算分期</button>
+    <div id="result"></div>
+
+    <script>
+        function calculate() {
+            // 取得輸入方塊的價格
+            var price = document.getElementById("price").value;
+            // 轉換為數值
+            price = parseInt(price);
+            // 取得輸入方塊的期數
+            var periods = document.getElementById("periods").value;
+            periods = parseInt(periods);
+
+            // 計算 相除的商
+            var quotient = parseInt(price / periods);
+
+            // 計算 相除的餘數
+            var remainder = price % periods;
+
+            // 產生結果的訊息
+            var innerHTML =
+                `<p>帳單金額: ${price}，分${periods}期。</p>
+            <p>每期應繳${quotient}元，第一期${quotient + remainder}</p>`;
+
+            document.getElementById("result").innerHTML = innerHTML;
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lecture02</title>
+</head>
+
+<body>
+    <input type="number" id="number1" value="3">
+    <button onclick="showInputType()">查詢輸入型態</button>
+    <button onclick="createList()">產生清單</button>
+    <ul id="todo-list"></ul>
+    <script>
+        function showInputType() {
+            var number1 = document.getElementById("number1").value;
+            alert(typeof number1);
+        }
+
+        function createList() {
+            document.getElementById("todo-list").innerHTML = "";
+
+            // 取得輸入方塊數值
+            var n = document.getElementById("number1").value;
+
+            // 根據取得的數值，重複產生 n 個 li
+            // 夾子開頭
+            for (count = 0; count < n; count++) {
+                // 建立一個 li
+                createLi(count);
+            }
+            // 夾子結尾
+        }
+
+        function createLi(count) {
+            var innerHTML = document.getElementById("todo-list").innerHTML;
+            innerHTML = innerHTML + `<li>${count}待辦事項</li>`;
+            document.getElementById("todo-list").innerHTML = innerHTML;
+        }
+    </script>
+</body>
+
+</html>
